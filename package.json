@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/scansemver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scan list/semver set operations for shell-friendly data wrangling.",
+  "bin": {
+    "scansemver": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/scansemver.git"
+  },
+  "homepage": "https://theworker02.github.io/scansemver/",
+  "keywords": [
+    "scan",
+    "semver",
+    "list",
+    "cli",
+    "toolkit"
+  ]
+}
